@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #D1D5DB;
+}
+
+.container {
+    margin: auto;
+    margin-top: 10rem;
+    height: 20rem;
+    width: 20rem;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.eight-ball {
+    margin: auto;
+    margin-top: 5rem;
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.eight {
+    padding-top: 2rem;
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+.form {
+    text-align: center;
+    margin-top: 8rem;
+}
+
+.question {
+    padding: 0.4rem;
+    border: none;
+    border-radius: 5px;
+    width: 20rem;
+    font-weight: bold;
+}
+
+.question::placeholder {
+    font-weight: bold;
+    color: black;
+}
+
+.question:focus {
+    outline: none;
+}
+
+.answer {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    position: relative;
+    bottom: 3.5rem;
+}
+
+.submit-button {
+    padding: 0.3rem;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: #D1D5DB;
+    font-weight: bold;
+}
+
+.submit-button:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
